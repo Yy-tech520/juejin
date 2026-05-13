@@ -1,0 +1,2 @@
+#!/usr/bin/env sh
+./week06/homework/juejin/node_modules/.bin/lint-staged --cwd week06/homework/juejin
