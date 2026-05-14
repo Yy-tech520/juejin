@@ -1,2 +1,2 @@
 #!/usr/bin/env sh
-./week06/homework/juejin/node_modules/.bin/commitlint --config week06/homework/juejin/commitlint.config.cjs --edit "$1"
+./node_modules/.bin/commitlint --config commitlint.config.cjs --edit "$1"

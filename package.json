@@ -9,7 +9,7 @@
     "lint": "eslint \"src/**/*.{ts,tsx}\"",
     "lint:fix": "eslint \"src/**/*.{ts,tsx}\" --fix",
     "format": "prettier --write .",
-    "prepare": "cd ../../.. && git config core.hooksPath week06/homework/juejin/.husky"
+    "prepare": "git config core.hooksPath .husky"
   },
   "lint-staged": {
     "src/**/*.{ts,tsx}": [
